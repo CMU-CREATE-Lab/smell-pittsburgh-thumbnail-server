@@ -18,7 +18,7 @@ sudo pip3 install pyvirtualdisplay
 Download and install Chrome.
 ```sh
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo dpkg –i google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
 
 Download Chrome driver from [here](https://sites.google.com/a/chromium.org/chromedriver/) that matches the installed Chrome version and move it to /usr/local/bin/.
