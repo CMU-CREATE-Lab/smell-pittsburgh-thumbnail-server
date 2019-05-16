@@ -15,9 +15,10 @@ sudo pip3 install selenium
 sudo pip3 install pyvirtualdisplay
 ```
 
-Download and install Chrome.
+Download Chrome, install pending dependencies, and then install Chrome.
 ```sh
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt-get -f install
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
 
