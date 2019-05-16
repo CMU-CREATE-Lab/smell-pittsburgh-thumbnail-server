@@ -30,3 +30,11 @@ Install selenium and pyvirtualdisplay.
 sudo pip3 install selenium
 sudo pip3 install pyvirtualdisplay
 ```
+
+Misc.
+```sh
+sudo initctl start smell-pittsburgh-thumbnail-server
+sudo initctl status smell-pittsburgh-thumbnail-server
+ps aux | grep smell-pittsburgh-thumbnail-server
+sudo kill -9 [pid]
+```
