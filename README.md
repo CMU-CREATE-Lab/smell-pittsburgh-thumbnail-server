@@ -25,10 +25,9 @@ mv chromedriver /usr/local/bin/
 chromedriver --version
 ```
 
-Install selenium and pyvirtualdisplay.
+Install selenium.
 ```sh
 sudo pip3 install selenium
-sudo pip3 install pyvirtualdisplay
 ```
 
 Misc.
